@@ -1,0 +1,364 @@
+@font-face {
+  font-family: 'nocensicons';
+  src:  url('fonts/nocensicons.eot?q1tbsc');
+  src:  url('fonts/nocensicons.eot?q1tbsc#iefix') format('embedded-opentype'),
+    url('fonts/nocensicons.ttf?q1tbsc') format('truetype'),
+    url('fonts/nocensicons.woff?q1tbsc') format('woff'),
+    url('fonts/nocensicons.svg?q1tbsc#nocensicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nocensicons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Design-595b40b75ba036ed117d7c34:before {
+  content: "\e927";
+}
+.icon-kanji:before {
+  content: "\e914"; 
+}
+.icon-pokeball:before {
+  content: "\e915";
+}
+.icon-horseshoe:before {
+  content: "\e916";
+}
+.icon-adobe:before {
+  content: "\e94d";
+  color: #f00;
+}
+.icon-amazon:before {
+  content: "\e961";
+  color: #f90;
+}
+.icon-amd:before {
+  content: "\e964";
+  color: #ed1c24;
+}
+.icon-americanexpress:before {
+  content: "\e965";
+  color: #2e77bc;
+}
+.icon-android:before {
+  content: "\e917";
+  color: #3ddc84;
+}
+.icon-apple:before {
+  content: "\e918";
+  color: #999;
+}
+.icon-applepay:before {
+  content: "\e977";
+}
+.icon-baidu:before {
+  content: "\e991";
+  color: #2319dc;
+}
+.icon-deviantart:before {
+  content: "\e919";
+  color: #05cc47;
+}
+.icon-discord:before {
+  content: "\e91a";
+  color: #7289da;
+}
+.icon-epicgames:before {
+  content: "\e91b";
+}
+.icon-facebook:before {
+  content: "\e91c";
+  color: #1877f2;
+}
+.icon-furaffinity:before {
+  content: "\e91d";
+  color: #faaf3a;
+}
+.icon-furrynetwork:before {
+  content: "\e91e";
+  color: #2e75b4;
+}
+.icon-gog-dot-com:before {
+  content: "\ea73";
+  color: #86328a;
+}
+.icon-google:before {
+  content: "\e91f";
+  color: #4285f4;
+}
+.icon-googleplay:before {
+  content: "\ea7f";
+  color: #607d8b;
+}
+.icon-huawei:before {
+  content: "\eaad";
+  color: #f00;
+}
+.icon-instagram:before {
+  content: "\eac2";
+  color: #e4405f;
+}
+.icon-ios:before {
+  content: "\eacc";
+}
+.icon-kickstarter:before {
+  content: "\eaec";
+  color: #2bde73;
+}
+.icon-ko-fi:before {
+  content: "\e920";
+  color: #f16061;
+}
+.icon-microsoftoffice:before {
+  content: "\e921";
+  color: #e74025;
+}
+.icon-mozillafirefox:before {
+  content: "\eb4f";
+  color: #ff7139;
+}
+.icon-netflix:before {
+  content: "\e922";
+  color: #e50914;
+}
+.icon-nintendoswitch:before {
+  content: "\eb60";
+  color: #e60012;
+}
+.icon-nvidia:before {
+  content: "\eb6c";
+  color: #76b900;
+}
+.icon-odnoklassniki:before {
+  content: "\eb72";
+  color: #f4731c;
+}
+.icon-opera:before {
+  content: "\e923";
+  color: #ff1b2d;
+}
+.icon-origin:before {
+  content: "\eb7f";
+  color: #f56c2d;
+}
+.icon-patreon:before {
+  content: "\e924";
+  color: #f96854;
+}
+.icon-paypal:before {
+  content: "\e925";
+  color: #00457c;
+}
+.icon-playstation:before {
+  content: "\e926";
+  color: #003791;
+}
+.icon-shazam:before {
+  content: "\ebf6";
+  color: #08f;
+}
+.icon-spotify:before {
+  content: "\ec20";
+  color: #1ed760;
+}
+.icon-stackoverflow:before {
+  content: "\ec29";
+  color: #fe7a16;
+}
+.icon-steam:before {
+  content: "\e929";
+}
+.icon-teamviewer:before {
+  content: "\e92a";
+  color: #0e8ee9;
+}
+.icon-telegram:before {
+  content: "\e92b";
+  color: #2ca5e0;
+}
+.icon-tiktok:before {
+  content: "\ec5c";
+}
+.icon-tumblr:before {
+  content: "\ec6e";
+  color: #36465d;
+}
+.icon-twitch:before {
+  content: "\e92c";
+  color: #6441a4;
+}
+.icon-twitter:before {
+  content: "\e92d";
+  color: #1da1f2;
+}
+.icon-ubuntu:before {
+  content: "\ec78";
+  color: #e95420;
+}
+.icon-viber:before {
+  content: "\ec8a";
+  color: #665cac;
+}
+.icon-vk:before {
+  content: "\e92e";
+  color: #4680c2;
+}
+.icon-weasyl:before {
+  content: "\ec9a";
+  color: #900;
+}
+.icon-whatsapp:before {
+  content: "\e92f";
+  color: #25d366;
+}
+.icon-windows:before {
+  content: "\e930";
+  color: #0078d6;
+}
+.icon-xbox:before {
+  content: "\e931";
+  color: #107c10;
+}
+.icon-youtube:before {
+  content: "\e933";
+  color: #f00;
+}
+.icon-lock-closed:before {
+  content: "\e900";
+}
+.icon-laughing-face:before {
+  content: "\e901";
+}
+.icon-coffee:before {
+  content: "\e902";
+}
+.icon-mug:before {
+  content: "\e903";
+}
+.icon-icecream:before {
+  content: "\e904";
+}
+.icon-cake:before {
+  content: "\e905";
+}
+.icon-plus:before {
+  content: "\e906";
+}
+.icon-alarmclock:before {
+  content: "\e907";
+}
+.icon-checkmark:before {
+  content: "\e908";
+}
+.icon-cancel:before {
+  content: "\e909";
+}
+.icon-microwave:before {
+  content: "\e90a";
+}
+.icon-washingmachine:before {
+  content: "\e90b";
+}
+.icon-mouse:before {
+  content: "\e90c";
+}
+.icon-zoomin:before {
+  content: "\e90d";
+}
+.icon-zoomout:before {
+  content: "\e90e";
+}
+.icon-megaphone:before {
+  content: "\e90f";
+}
+.icon-chat:before {
+  content: "\e910";
+}
+.icon-dollar:before {
+  content: "\e911";
+}
+.icon-paperplane:before {
+  content: "\e912";
+}
+.icon-yingyang:before {
+  content: "\e913";
+}
+.icon-futbol-o:before {
+  content: "\e934";
+}
+.icon-paw:before {
+  content: "\e935";
+}
+.icon-mobile:before {
+  content: "\e936";
+}
+.icon-monitor:before {
+  content: "\e937";
+}
+.icon-volume:before {
+  content: "\e938";
+}
+.icon-music:before {
+  content: "\e939";
+}
+.icon-microphone:before {
+  content: "\e93a";
+}
+.icon-radio:before {
+  content: "\e93b";
+}
+.icon-headphone:before {
+  content: "\e93c";
+}
+.icon-broadcast:before {
+  content: "\e93d";
+}
+.icon-broadcast1:before {
+  content: "\e93e";
+}
+.icon-gamepad:before {
+  content: "\e93f";
+}
+.icon-gift:before {
+  content: "\e940";
+}
+.icon-star:before {
+  content: "\e928";
+}
+.icon-newspaper:before {
+  content: "\e941";
+}
+.icon-camera:before {
+  content: "\e942";
+}
+.icon-tv:before {
+  content: "\e95b";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-lab:before {
+  content: "\e9aa";
+}
+.icon-enter:before {
+  content: "\ea13";
+}
+.icon-exit:before {
+  content: "\ea14";
+}
+.icon-delicious:before {
+  content: "\eacd";
+}
