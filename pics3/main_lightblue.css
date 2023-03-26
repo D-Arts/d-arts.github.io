@@ -1,0 +1,763 @@
+@charset "windows-1251";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#EEEEEE;
+	color: #000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	padding: 0;
+	margin: 0;
+
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	min-height: 700px;
+}
+
+.errormes {
+	color: #000;
+	background-color: #FFF;
+	margin-top: 5px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+margin-left: 5px;
+	padding: 2px;
+	border: 1px solid #CCC;
+	clear:both;
+	text-align: left;
+}
+.errortitle {
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold;
+	padding: 4px;
+	padding-left: 10px;
+	    background-color: #42608f;
+}
+#hinderp a, #hinder a, #hinderb a, #hindera a
+{
+	opacity: 0.7;
+}
+#hinderp a:hover, #hinder a:hover, #hinderb a:hover, #hindera a:hover
+{
+	opacity: 0.75;
+}
+.newsdiv2blue a {
+		color: #900;
+	text-decoration: none;
+}
+.newsdiv2blue a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
+.newsdiv2blue a:visited {
+	
+	text-decoration: none;
+}
+.logotype a:link, .logotype a:visited
+{
+	opacity: 0.97;
+
+}
+
+.logotype a:hover
+{
+	opacity: 1;
+	background-position-x: 0px !important;
+	background-position-y: 0px !important;
+}
+
+
+.infoinside2
+{
+	font-size: 24px;
+color: #424242;
+
+font-weight: bold;
+padding: 4px;
+padding-left: 10px;
+background-color: white;
+margin-bottom: 4px;
+
+}
+.pmtype a:hover
+{
+	background: url(pics2/nonewmes2.png) 0px 0px no-repeat transparent !important;
+
+}
+
+.newacts a:link, .newacts a:visited,.newacts2 a:link, .newacts2 a:visited
+{
+	opacity: 0.95;
+}
+.newacts a:hover
+{
+	
+	background: url(pics3/interface/newacts.png?2) 0px 0px no-repeat transparent  !important;
+
+}
+.newacts2  a:hover
+{
+
+background: url(pics3/interface/newactsf2.png) 0px 0px no-repeat transparent  !important;
+
+}
+
+.headers
+{
+	border-bottom: 1px solid #535353;
+	font-size: 26px;
+	color: #535353;
+	padding: 4px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	
+}
+.headers a
+{
+	font-size: 26px;
+	color: #535353;
+}
+
+.sublink a:link, .sublink a:visited, .sublink a:active
+{
+	color: #FFF !important;
+		text-decoration: none;
+}
+.headers a:link, .headers a:visited,  .headers a:active
+{
+	color: #535353;
+		text-decoration: none;
+}
+.sublink a:hover
+{
+	color: #FFF !important;
+		text-decoration: underline;
+}
+.headers a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+
+.separators
+{
+	border-bottom: 1px solid #535353;
+	font-size: 24px;
+	color: #535353;
+
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+
+
+.separator
+
+{
+	border-bottom: 1px solid #535353;
+	font-size: 22px;
+	color: #535353;
+	padding: 4px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+}
+
+.separator a:link, .separator a:visited,  .separator a:active
+{
+	color: #535353;
+		text-decoration: none;
+}
+.separator a:hover
+{
+		color:#535353;
+		text-decoration: none;
+		
+}
+
+.mainblockmini a
+{
+	opacity: 0.95;
+}
+.mainblockmini a:hover, #ratig-layer a:hover
+{
+	opacity: 1;
+}
+
+.bpodlojka
+{
+	  background-color: #EFEFEF;
+}
+
+.bbutton
+{
+	border: 1px solid #EFEFEF;
+}
+
+.mainblock:hover, .mainblockbig:hover, .mainblock2:hover, .mainblock2w:hover, .mainblock3:hover,  .mainblocksuper:hover, .mainblock4:hover,  .mainblock5:hover, .mainblock5w:hover, .mainblockmini:hover, .bigvideoblock:hover, .paral1:hover, .paral2:hover, #votation:hover, #votation2:hover,.bbutton:hover
+{
+	background-color: #FFFFFF;
+
+-webkit-transition: background-color 200ms linear, color 200ms linear;
+-moz-transition: background-color 200ms linear, color 200ms linear;
+-o-transition: background-color 200ms linear, color 200ms linear;
+transition: background-color 200ms linear, color 200ms linear;
+-webkit-transition: box-shadow 200ms linear, color 200ms linear;
+-moz-transition: box-shadow 200ms linear, color 200ms linear;
+-o-transition: box-shadow 200ms linear, color 200ms linear;
+transition:box-shadow 200ms linear, color 200ms linear;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+
+}
+.mainblock, .mainblockbig, .mainblock2, .mainblock2w, .mainblock3, .mainblock4,  .mainblocksuper, .mainblock5, .mainblock5w, .mainblockmini,  .bigvideoblock, .paralblock2, .paralblock, .paral1, .paral2, #votation, #votation2,.bbutton
+{
+
+	background-color: #FFFFFF;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.21);
+-webkit-transition: background-color 200ms linear, color 200ms linear;
+-moz-transition: background-color 200ms linear, color 200ms linear;
+-o-transition: background-color 200ms linear, color 200ms linear;
+transition: background-color 200ms linear, color 200ms linear;
+-webkit-transition: box-shadow 200ms linear, color 200ms linear;
+-moz-transition: box-shadow 200ms linear, color 200ms linear;
+-o-transition: box-shadow 200ms linear, color 200ms linear;
+transition:box-shadow 200ms linear, color 200ms linear;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.21);
+
+}
+.paral1:hover
+{
+	border-left-color: rgb(43, 155, 137)  !important;
+}
+.paral2:hover
+{
+	border-right-color: rgb(43, 155, 137)  !important;
+}
+.paral2
+{
+	border-right-color: #27726C  !important;
+	-webkit-transition: border-right-color 200ms linear;
+-moz-transition:border-right-color 200ms linear;
+-o-transition: border-right-color 200ms linear;
+transition: border-right-color 200ms linear;
+}
+.paral1
+{
+	border-left-color: #27726C !important;
+	-webkit-transition: border-left-color 200ms linear;
+-moz-transition: border-left-color 200ms linear;
+-o-transition: border-left-color 200ms linear;
+transition: border-left-color 200ms linear;
+}
+.adult{
+
+
+color: rgba(0, 0, 0, 0.59);
+border-radius: 4px;
+border-radius: 4px;
+font-size: 11px;
+background-color: rgba(165, 163, 163, 0.33);
+font-weight: bold;
+padding: 0px;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+.shapka
+{
+	width: 100%;
+background-color: #494949;
+background-image: url(pics3/00b5blue.png);
+color: white;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+position: relative;
+z-index: 2;
+}
+
+.navigation a:link, .navigation a:visited, .navigation a:hover, .navigation a:active {
+text-decoration: none;
+color: rgb(0, 0, 0) !important;
+background-color: rgba(255, 255, 255, 1)  !important;
+border: 1px solid #E6E6E6;
+padding: 3px 6px;
+font-size: 11px;
+}
+
+.footer
+{
+	background-color: #172927;
+color: white;
+border-top: 2px solid #0A413C;
+box-shadow: inset 1px 1px 2px black; }
+
+.sublink
+{
+	
+	background-color: #42608f;
+color: #FFF;
+		font-size: 26px;
+	padding:  2px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.round2
+{
+padding: 5px;
+padding-bottom: 6px;
+margin-right: 2px;
+
+	background-color:  #535353;
+color: #FFF;
+		
+}
+.round3
+{
+padding: 5px;
+padding-bottom: 6px;
+margin-right: 2px;
+
+	background-color:  #535353;
+	
+
+		color: #FFF;
+}
+/*Slidemenu*/
+.mainli 
+{
+	
+    float: right;
+    position: relative;
+    cursor: pointer;
+    height: 38px;
+
+    padding-bottom: 0px;
+    color: white;
+    font-size: 22px;
+    z-index: 3;
+
+}
+.jqueryslidemenu{
+
+margin:0 auto;
+
+float: right;
+position: relative;
+
+z-index: 3;
+display: inline;
+
+
+}
+.jqueryslidein{
+position: absolute;
+height: 200px;
+width: 200px;
+
+}
+.jqueryslidemenu .conpic 
+{
+
+}
+.jqueryslidemenu .conblog 
+{
+
+}
+.jqueryslidemenu .convid 
+{
+
+}
+.jqueryslidemenu ul{
+	
+margin: 0;
+padding: 0;
+list-style-type: none;
+
+font-size: 15px;
+font-weight: bold;
+
+}
+.jqueryslidemenu ul li ul
+{
+	border: 1px solid rgba(255, 255, 255, 0.35);
+	border-top-width: 0px;
+box-shadow: 0 2px 2px  rgba(14, 47, 53, 0.29);
+background-color: #2a2a2a; /*background of tabs (default state)*/
+background-image: url(pics3/00b5.png);
+}
+/*Top level list items*/
+
+.jqueryslidemenu ul li ul li{
+	position: relative;
+	display: inline;
+	float: left;
+	
+	
+	font-size: 16px;
+}
+.jqueryslidemenu ul li ul li ul
+{
+		border-top-width: 1px;
+}
+.jqueryslidemenu ul li ul li ul li {
+	border-top-width: 1px;
+	padding-bottom: 1px;
+}
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+display: block;
+
+color: white;
+
+
+text-decoration: none;
+}
+
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+text-align:left;
+}
+
+
+
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
+color: white;
+padding: 10px;
+padding-top: 6px;
+}
+
+.jqueryslidemenu ul li a:hover{
+	
+color: white;
+	
+
+}
+
+.jqueryslidemenu .mainli   a:link, .jqueryslidemenu .mainli   a:visited
+{
+	opacity: 0.95;
+		color:#FFFFFF;
+		background-color:transparent;
+
+	
+}
+.jqueryslidemenu .mainli   a:hover
+{
+
+	opacity: 1;
+	color:#FFF !important;
+}
+.jqueryslidemenu .mainli   a:active
+{
+opacity:1;
+	color:#FFF;
+}
+
+.jqueryslidemenu .mainli ul li   a:link, .jqueryslidemenu .mainli  ul li   a:visited
+{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+		color:#FFF;
+	font-weight: bold;
+	
+}
+
+.jqueryslidemenu .mainli ul li   a:hover
+{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	background-color: #2a2a2a;
+	color: #FFFFFF !important;
+}
+.jqueryslidemenu .mainli ul li    a:active
+{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	background-color: #000000;
+	color:#B9B9B9 !important;
+}
+
+.jqueryslidemenu .conpic   a:hover
+{
+	color:#00E0FF!important;
+}
+.jqueryslidemenu .conblog  a:hover
+{
+	color:#00E0FF !important;
+}
+.jqueryslidemenu .convid  a:hover
+{
+	color:#00E0FF !important;
+}
+
+
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li{
+display: list-item;
+float: none;
+text-align:left;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+
+	width: 160px; /*width of sub menus*/
+	padding: 5px;
+	margin: 0;
+	border-top-width: 0;
+	text-align:left;
+	color: #FFF !important;
+}
+
+.jqueryslidemenuz ul li ul li a:hover{ /*sub menus hover style*/
+padding-bottom: 4px;
+border-bottom: 1px solid #FF0;
+	
+}
+	.pager {
+
+ text-align: center;
+position: absolute;
+bottom: 0px;
+width: 100%;
+
+}
+
+.pager a {
+
+    background: url(scroll/butsc.png) 0 -20px no-repeat transparent;
+
+    width: 20px;
+
+    height: 20px;
+
+ 
+
+    display: inline-block;
+
+}
+
+.pager a.selected {
+
+    background-position: 0px 0px;
+
+    cursor: default;
+
+}
+
+.pager a span {
+
+    display: none;
+
+}
+.downmain a {
+
+color: #575757 !important;
+background: #EEEEEE !important;
+
+}
+.downmain a:hover {
+
+color: #000000 !important;
+background: #FFFFFF !important;
+
+}
+
+.srch
+{
+
+    background-color: rgba(0, 0, 0, 0.61);
+
+    border: 1px solid rgb(90, 90, 90);
+     width: 218px;
+    color: white;
+    height: 20px;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.srchfield
+{
+	width: 190px;
+margin: 2px;
+padding-left: 30px;
+border: none;
+background-color: transparent;
+color: white;
+}
+.newsdiv2blue {
+
+	max-width: 1000px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		background-color: #FFFFFF;
+	padding: 2px;
+
+
+	clear: both;
+	margin-bottom: 4px;
+	
+
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.21);
+		
+}
+.newsdivinblue {
+
+	color:#273C2E;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+text-align: left;
+padding: 5px;
+padding-top: 2px;
+margin-bottom: 8px;
+font-weight: 700 !important;
+}
+
+.newsdivinblue a:link,.newsdivinblue a:visited, .newsdivinblue a:active {
+			color:#273C2E;
+			opacity: 0.95;
+		text-decoration:none;
+		font-weight: 700 !important;
+		
+}
+.newsdivinblue a:hover {
+		color:#273C2E;
+		text-decoration:none;
+			opacity: 1;
+}
+.dirightn, .dirightn a:link, .dirightn a:hover, .dirightn a:visited,.dirightn a:active {
+	font-weight:normal  !important;
+}
+	.readmore a, .readmore span
+	{
+background-color: rgb(214, 214, 214) !important;
+
+text-shadow: 0px 2px 1px rgba(255, 255, 255, 0.38);
+padding: 4px;
+color: #233A2A !important;
+white-space: nowrap;
+	}
+		.readmore
+		{
+		
+	line-height: 28px;
+			margin-top: 8px;
+			font-size: 14px;
+			
+		}
+		.newpic {
+    width: 600px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #BDBDBD;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    color: #000;
+    box-shadow: inset 0px 0px 3px #FFFFFF;
+    border: 1px dashed #000;
+}
+.bigbut
+{
+
+	height: 40px;
+	font-size: 30px;
+	padding: 4px;
+
+  
+border: 1px solid #EFEFEF;
+    background-color: #FFFFFF;
+    color: #000 !important;
+}
+.bigbut:hover
+{
+	  background-color: #FFFFFF;
+	cursor: pointer;
+
+    color: #000 !important;
+	text-decoration:none !important;
+}
+.bigbut:active
+{
+	cursor: pointer;
+    background-color:#DFDFDF;
+    color: #000 !important;
+	text-decoration:none; 
+}
+
+.infernal .bigbut
+{
+ background-color:	#F3F3F3;
+ border: none;
+     color: #535353 !important;
+	     border-top: 1px solid rgb(216, 216, 216);
+		     border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+
+.infernal .bigbut:hover
+{
+ background-color:	#FFFFFF;
+ border: none;
+  border-top: 1px solid rgb(216, 216, 216);
+		     border-bottom: 1px solid rgb(216, 216, 216);
+     color: #000000 !important;
+}
+.bigbut a
+{
+	color: #000 !important;
+}
+.bigbut a:hover
+{
+	text-decoration: none;
+}
+.buts
+{
+	background-color:rgb(61, 122, 115);
+	color: #FFF;
+	border: 0px;
+}
+
+.buts:hover
+{	background-color: #438F7E;
+}
+.buts:active
+{	background-color:#2C5849;
+}
